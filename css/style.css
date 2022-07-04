@@ -10,7 +10,7 @@ h1 {
     color: orange;
 }
 
-section {
+.fleaxible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -19,6 +19,24 @@ section {
     width: 50%;
     padding-left: 5%;
 }
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-developer{
+    border-left: 7px solid blue;
+}
+
+#web-developer{
+    border-left: 7px solid tomato;
+}
+
 
 .link-button {
     background-color: orange;
@@ -33,4 +51,8 @@ section {
 .top-banar {
     background-image: url(/images/water.png);
     background-repeat: no-repeat;
+}
+
+footer p{
+    text-align: center;
 }
